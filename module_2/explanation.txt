@@ -1,0 +1,63 @@
+Let's analyze each statement about \( X \), the sum of the faces when rolling two dice:
+
+---
+
+### 1. **\( X \) can only take values 2, 3, 4, 5, 6.**
+- This is **false**. When rolling two dice, the smallest possible sum is \( 2 \) (1+1), and the largest possible sum is \( 12 \) (6+6). Therefore, \( X \) can take any integer value between \( 2 \) and \( 12 \), not just \( 2, 3, 4, 5, 6 \).
+
+---
+
+### 2. **\( X \) is a random variable.**
+- This is **true**. \( X \) is a random variable because it represents the sum of the faces of two dice, which is a numerical outcome of a random experiment (rolling the dice).
+
+---
+
+### 3. **The mean of \( X \) is 4.**
+- This is **false**. The mean of \( X \) is not 4. When rolling two fair dice, the expected value (mean) of \( X \) is calculated as:
+  \[
+  E(X) = \frac{2 + 12}{2} = 7
+  \]
+  This is because the distribution of \( X \) is symmetric, and the average of the smallest (2) and largest (12) possible sums is 7.
+
+---
+
+### Final Answer:
+- The only true statement is: **\( X \) is a random variable.**
+
+--------------
+
+To calculate \( P(10 < X < 20) \) for a continuous random variable \( X \) uniformly distributed on the interval \([0, 100]\), we use the probability density function (PDF) of the uniform distribution.
+
+---
+
+### Step 1: Understand the PDF
+For a uniform distribution \( X \sim \text{Uniform}[a, b] \), the PDF is:
+\[
+f(x) = \frac{1}{b - a}, \quad \text{for } a \leq x \leq b.
+\]
+In this case, \( a = 0 \) and \( b = 100 \), so:
+\[
+f(x) = \frac{1}{100 - 0} = \frac{1}{100}.
+\]
+
+---
+
+### Step 2: Calculate \( P(10 < X < 20) \)
+The probability \( P(10 < X < 20) \) is the area under the PDF curve between \( x = 10 \) and \( x = 20 \). For a uniform distribution, this is simply:
+\[
+P(10 < X < 20) = \text{Width of the interval} \times \text{Height of the PDF}.
+\]
+- Width of the interval: \( 20 - 10 = 10 \).
+- Height of the PDF: \( f(x) = \frac{1}{100} \).
+
+Thus:
+\[
+P(10 < X < 20) = 10 \times \frac{1}{100} = \frac{10}{100} = 0.1.
+\]
+
+---
+
+### Final Answer:
+\[
+P(10 < X < 20) = 0.1.
+\]
